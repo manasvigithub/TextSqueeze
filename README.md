@@ -5,9 +5,9 @@ OVERVIEW
 INTRODUCTION
 Huffman Coding is an optimal loss-less compression technique, i.e., on decompression, we receive the original data without any loss.
 Following are the characteristics of Huffman Coding: 
-  > Variable Length Encoding - Different characters are assigned codes of different length.
-  > Greedy Approach - The most frequently occurring character has the smallest code.
-  > Prefix Requirement for Decompression - No code is a prefix of any other code.
+  1) Variable Length Encoding - Different characters are assigned codes of different length.
+  2) Greedy Approach - The most frequently occurring character has the smallest code.
+  3) Prefix Requirement for Decompression - No code is a prefix of any other code.
 
 STEPS INVOLVED (working of code)
 Step - 1:	createMinHeap();
