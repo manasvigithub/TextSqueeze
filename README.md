@@ -1,15 +1,22 @@
 OVERVIEW
+
 - Implemented an efficient and lossless file compression system utilizing Huffman Coding's greedy approach to minimize storage space and improve data transmission speed. This further reduces the cost as the storage and bandwidth requirements are reduced.
 - This application can be used to compress any text based file, i.e., files with extensions like .txt, .c, .cpp, .html, .js, .docx and so on!
 
+
+
 INTRODUCTION
+
 Huffman Coding is an optimal loss-less compression technique, i.e., on decompression, we receive the original data without any loss.
 Following are the characteristics of Huffman Coding: 
   1) Variable Length Encoding - Different characters are assigned codes of different length.
   2) Greedy Approach - The most frequently occurring character has the smallest code.
   3) Prefix Requirement for Decompression - No code is a prefix of any other code.
 
+
+
 STEPS INVOLVED (working of code)
+
 Step - 1:	createMinHeap();
 This function reads the input file to calculate the frequency of each character. It then creates a min-heap (a priority queue) of nodes, where each node contains a character and its frequency. The min-heap is structured so that the character with the smallest frequency is at the top, which is essential for building the Huffman tree.
 
